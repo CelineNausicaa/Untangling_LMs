@@ -7,4 +7,11 @@ To run the model you need to:
 2. Download the data from Spraakbanken: https://github.com/spraakbanken/multiged-2023
 3. Obtain the permission from Spraakbanken to obtain the test data
 
-I am not allowed to share the data myself, but simply put it in the 
+I am not allowed to share the data myself, but simply download it from Spraakbanken's repository and ask for the permission to use the labelled test set.
+
+This project is a work in progress. 
+My goal for the next few weeks is to improve accuracy/precision/recall/F0.5 scores. There are multiple options that I am exploring:
+
+- Testing different loss functions (colwise MSE, cross-entropy loss)
+- Reducing the padding length
+- Changing the shape of the tensors
